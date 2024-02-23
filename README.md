@@ -2,6 +2,11 @@
 
 Neovim configuration for alacritty and windows 11.
 
+## Colorschemes
+
+The supported colorschemes are:
+- Midnight.nvim: https://github.com/dasupradyumna/midnight.nvim
+
 ## Keymaps 
 
 ### Overview
@@ -11,4 +16,3 @@ Neovim configuration for alacritty and windows 11.
 
 - `<leader>q`: Save and quit
 - `<leader>w`: Save
-
