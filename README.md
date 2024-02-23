@@ -20,3 +20,7 @@ The supported colorschemes are:
 
 - `<leader>q`: Save and quit
 - `<leader>w`: Save
+- `<leader>ff`: Find Files (telescope) 
+- `<leader>fg`: Live Grep (telescope) 
+- `<leader>fb`: Buffers (telescope) 
+- `<leader>fh`: Help Tags (telescope) 
