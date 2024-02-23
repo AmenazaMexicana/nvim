@@ -18,6 +18,7 @@ vim.opt.smartindent = true
 
 -- Backup 
 vim.opt.backup = false
+vim.cmd 'set noswapfile'
 
 -- command height
 vim.opt.cmdheight = 2

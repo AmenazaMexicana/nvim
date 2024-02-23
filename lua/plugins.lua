@@ -4,7 +4,8 @@
 
 -- plugins
 local plugins = {
-  { 'dasupradyumna/midnight.nvim', lazy = false, priority = 1000 }
+  { 'dasupradyumna/midnight.nvim', lazy = false, priority = 1000 },
+  { 'folke/which-key.nvim', event = "VeryLazy" },
 }
 
 -- setup options

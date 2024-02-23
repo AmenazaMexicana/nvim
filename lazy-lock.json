@@ -1,3 +1,4 @@
 {
-  "midnight.nvim": { "branch": "main", "commit": "13d812355db1e535ba5c790186d301e1fe9e7e1b" }
+  "midnight.nvim": { "branch": "main", "commit": "13d812355db1e535ba5c790186d301e1fe9e7e1b" },
+  "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" }
 }
