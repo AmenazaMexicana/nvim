@@ -22,7 +22,8 @@ local plugins = {
   { 
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
-  }
+  },
+  { 'stevearc/dressing.nvim', event = "VeryLazy" }
 }
 
 -- setup options
