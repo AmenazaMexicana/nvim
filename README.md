@@ -2,8 +2,12 @@
 
 Neovim configuration for alacritty and windows 11.
 
-## Colorschemes
 
+## GUI
+
+Syntax highlight supported by `treesitter`.
+
+### Colorschemes
 The supported colorschemes are:
 - Midnight.nvim: https://github.com/dasupradyumna/midnight.nvim
 

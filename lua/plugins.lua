@@ -6,6 +6,7 @@
 local plugins = {
   { 'dasupradyumna/midnight.nvim', lazy = false, priority = 1000 },
   { 'folke/which-key.nvim', event = "VeryLazy" },
+  { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' }
 }
 
 -- setup options
