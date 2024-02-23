@@ -19,6 +19,10 @@ local plugins = {
       'MunifTanjim/nui.nvim',
     },
   },
+  { 
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
+  }
 }
 
 -- setup options
