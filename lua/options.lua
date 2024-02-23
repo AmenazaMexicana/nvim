@@ -46,5 +46,5 @@ vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 
 -- Side signs
-vim.opt.signcolumn = "yes"
+-- vim.opt.signcolumn = "yes"
 vim.opt.numberwidth = 4 
