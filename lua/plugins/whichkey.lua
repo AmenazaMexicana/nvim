@@ -9,7 +9,7 @@ local wk = require 'which-key'
 
 -- Save and quit keymaps
 wk.register({
-  q = { ":wq<CR>", "Quit & Save" },
+  q = { ":q<CR>", "Quit" },
   w = { ":w<CR>", "Save" }
 }, { prefix = "<leader>" })
 
@@ -23,3 +23,13 @@ wk.register({
     h = { '<cmd>Telescope help_tags<cr>', 'Help tags' },
   }
 }, { prefix = "<leader>" })
+
+-- Neotree
+wk.register({
+  e = { '<cmd>Neotree filesystem reveal left<cr>', 'Open Filesystem' },
+  n = {
+    name = 'Navigator',
+    q = { '<cmd>Neotree close<cr>', 'Close Filesystem' },
+    g = { '<cmd>Neotree git_status<cr>', 'Git status' }
+  } 
+}, { prefix = '<leader>' })

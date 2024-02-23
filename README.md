@@ -24,3 +24,6 @@ The supported colorschemes are:
 - `<leader>fg`: Live Grep (telescope) 
 - `<leader>fb`: Buffers (telescope) 
 - `<leader>fh`: Help Tags (telescope) 
+- `<leader>e`: Open filesystem (neotree)
+- `<leader>nq`: Close filesystem (neotree) 
+- `<leader>ng`: Get git status (neotree) 
