@@ -10,7 +10,8 @@ local wk = require 'which-key'
 -- Save and quit keymaps
 wk.register({
   q = { ":q<CR>", "Quit" },
-  w = { ":w<CR>", "Save" }
+  w = { ":w<CR>", "Save" },
+  qa = { '<cmd>qall<cr>', 'Quit all' }
 }, { prefix = "<leader>" })
 
 -- Telescope

@@ -2,6 +2,12 @@
 
 Neovim configuration for alacritty and windows 11.
 
+## LSP
+
+All the lsp settings are found under the `lua/plugins/lsp` directory.
+
+The current server support is:
+- Lua through `lua_ls`
 
 ## GUI
 
@@ -19,6 +25,7 @@ The supported colorschemes are:
 ### Keymaps list
 
 - `<leader>q`: Save and quit
+- `<leader>qa`: Quit all 
 - `<leader>w`: Save
 - `<leader>ff`: Find Files (telescope) 
 - `<leader>fg`: Live Grep (telescope) 
@@ -27,3 +34,4 @@ The supported colorschemes are:
 - `<leader>e`: Open filesystem (neotree)
 - `<leader>nq`: Close filesystem (neotree) 
 - `<leader>ng`: Get git status (neotree) 
+
