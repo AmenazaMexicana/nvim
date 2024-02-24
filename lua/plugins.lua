@@ -23,7 +23,19 @@ local plugins = {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
-  { 'stevearc/dressing.nvim', event = "VeryLazy" }
+  { 'stevearc/dressing.nvim', event = "VeryLazy" },
+  {
+    'hrsh7th/nvim-cmp', event = 'InsertEnter',
+    dependencies = { 
+      'hrsh7th/cmp-buffer', 'hrsh7th/cmp-path',
+      'L3MON4D3/LuaSnip', 'saadparwaiz1/cmp_luasnip',
+      'rafamadriz/friendly-snippets'
+    }
+  },
+  { 
+    'williamboman/mason.nvim',
+    dependencies = {'williamboman/mason-lspconfig.nvim'}
+  },
 }
 
 -- setup options
