@@ -35,7 +35,7 @@ vim.opt.hlsearch = true
 vim.opt.ignorecase = true
 
 -- Display and gui
-vim.opt.showmode = true
+vim.opt.showmode = false
 
 -- Split
 vim.opt.splitbelow = true
