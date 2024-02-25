@@ -57,7 +57,8 @@ local plugins = {
   {
     'folke/trouble.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
-  }
+  },
+  { 'tpope/vim-fugitive' }
 }
 
 -- setup options
