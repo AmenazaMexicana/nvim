@@ -6,6 +6,7 @@ mason.setup({})
 mason_lspconfig.setup({
 	ensure_installed = {
 		"lua_ls",
+		"jdtls",
 	},
 	automatic_isntallation = true,
 })
