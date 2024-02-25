@@ -53,6 +53,10 @@ local plugins = {
   {
     'nvimtools/none-ls.nvim',
     dependencies = { 'nvim-lua/plenary.nvim' }
+  },
+  {
+    'folke/trouble.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
   }
 }
 

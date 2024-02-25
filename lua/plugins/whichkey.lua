@@ -34,3 +34,16 @@ wk.register({
 		g = { "<cmd>Neotree git_status<cr>", "Git status" },
 	},
 }, { prefix = "<leader>" })
+
+-- Trouble.nvim
+wk.register({
+	x = {
+		name = "Trouble",
+		x = { "<cmd>TroubleToggle<cr>", "Toggle" },
+		w = { "<cmd>TroubleToggle workspace_diagnostics<cr>", "Toggle workspace diagnostics" },
+		d = { "<cmd>TroubleToggle document_diagnostics<cr>", "Toggle document diagnostics" },
+		q = { "<cmd>TroubleToggle quickfix<cr>", "Toggle quick fix" },
+		l = { "<cmd>TroubleToggle loclist<cr>", "Toggle loc list" },
+	},
+	gR = { "<cmd>TroubleToggle lsp_references<cr>", "Toggle lsp references" },
+}, { prefix = "<leader>" })
