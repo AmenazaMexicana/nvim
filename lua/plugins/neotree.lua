@@ -1,8 +1,8 @@
 -- Neo Tree config
 -- for file navigation
 
-require 'neo-tree'.setup {
-  close_if_last_window = true,
-  enable_git_status = true,
-  enable_diagnostics = true,
-}
+require("neo-tree").setup({
+	close_if_last_window = true,
+	enable_git_status = true,
+	enable_diagnostics = true,
+})

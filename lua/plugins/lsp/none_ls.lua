@@ -9,4 +9,4 @@ null_ls.setup({
 	},
 })
 
-vim.keymap.set('n', '<leader>F', '<cmd>lua vim.lsp.buf.format()<cr>')
+vim.keymap.set("n", "<leader>F", "<cmd>lua vim.lsp.buf.format()<cr>")

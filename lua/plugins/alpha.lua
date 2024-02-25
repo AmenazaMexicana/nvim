@@ -1,4 +1,4 @@
 -- Alpha.nvim
--- Startup screen 
+-- Startup screen
 
-require('alpha').setup(require('alpha.themes.theta').config)
+require("alpha").setup(require("alpha.themes.theta").config)
