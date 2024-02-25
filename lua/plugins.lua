@@ -44,7 +44,12 @@ local plugins = {
       { 'antosha417/nvim-lsp-file-operations', config = true }
     }
   },
-  { 'goolord/alpha-nvim' }
+  { 'goolord/alpha-nvim' },
+  {
+    'ThePrimeagen/harpoon',
+    branch = 'harpoon2',
+    dependencies = { 'nvim-lua/plenary.nvim' }
+  }
 }
 
 -- setup options

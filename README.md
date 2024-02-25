@@ -34,4 +34,12 @@ The supported colorschemes are:
 - `<leader>e`: Open filesystem (neotree)
 - `<leader>nq`: Close filesystem (neotree) 
 - `<leader>ng`: Get git status (neotree) 
-
+- `<leader>ha`: Harpoon add buffer
+- `<leader>hd`: Harpoon remove buffer
+- `<leader>he`: Harpoon show list 
+- `<leader>h1`: Harpoon 1st buffer
+- `<leader>h2`: Harpoon 2nd buffer
+- `<leader>h3`: Harpoon 3rd buffer
+- `<leader>h4`: Harpoon 4th buffer
+- `<leader>hj`: Harpoon prev buffer
+- `<leader>hk`: Harpoon next buffer
