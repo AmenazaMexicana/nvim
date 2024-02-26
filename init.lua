@@ -12,7 +12,9 @@ require 'plugins.lualine' -- Statusbar
 require 'plugins.dressing' -- Utils
 require 'plugins.alpha' -- Startup
 require 'plugins.cmp' -- completion 
+require 'plugins.bufferline' -- bufferline and tabline
 require 'plugins.lsp.mason' -- mason
 require 'plugins.lsp.lspconfig' -- LSP configs
 require 'plugins.lsp.none_ls' -- formatting
 require 'plugins.whichkey' -- whichkey
+

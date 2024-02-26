@@ -7,13 +7,6 @@ vim.o.timeoutlen = 300
 
 local wk = require("which-key")
 
--- Save and quit keymaps
-wk.register({
-	q = { ":q<CR>", "Quit" },
-	w = { ":w<CR>", "Save" },
-	qa = { "<cmd>qall<cr>", "Quit all" },
-}, { prefix = "<leader>" })
-
 -- Telescope
 wk.register({
 	f = {
@@ -47,3 +40,10 @@ wk.register({
 	},
 	gR = { "<cmd>TroubleToggle lsp_references<cr>", "Toggle lsp references" },
 }, { prefix = "<leader>" })
+
+-- buffers
+wk.register({
+	["<C-h>"] = { "<cmd>bprev<cr>", "Prev buffer" },
+	["<C-l>"] = { "<cmd>bnext<cr>", "Next buffer" },
+}, {})
+
