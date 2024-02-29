@@ -7,6 +7,15 @@ vim.o.timeoutlen = 300
 
 local wk = require("which-key")
 
+wk.register({
+	q = {
+		name = "exit commands",
+		q = { "<cmd>bdelete<cr>", "Quit buffer" },
+		a = { "<cmd>qa<cr>", "Quit all" },
+		b = { "<cmd>q<cr>", "Quit" },
+	},
+})
+
 -- Telescope
 wk.register({
 	f = {
@@ -46,4 +55,3 @@ wk.register({
 	["<C-h>"] = { "<cmd>bprev<cr>", "Prev buffer" },
 	["<C-l>"] = { "<cmd>bnext<cr>", "Next buffer" },
 }, {})
-
